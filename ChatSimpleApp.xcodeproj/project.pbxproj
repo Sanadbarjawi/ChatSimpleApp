@@ -12,6 +12,10 @@
 		C93325B12148FA4B00AE8EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93325AF2148FA4B00AE8EB6 /* Main.storyboard */; };
 		C93325B32148FA5300AE8EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93325B22148FA5300AE8EB6 /* Assets.xcassets */; };
 		C93325B62148FA5300AE8EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93325B42148FA5300AE8EB6 /* LaunchScreen.storyboard */; };
+		C93325BE2148FAD600AE8EB6 /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93325BD2148FAD600AE8EB6 /* ChatMessageModel.swift */; };
+		C93325C02148FAFC00AE8EB6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93325BF2148FAFC00AE8EB6 /* Extensions.swift */; };
+		C93325C22148FEEE00AE8EB6 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93325C12148FEEE00AE8EB6 /* ChatMessageCell.swift */; };
+		C93325C42148FF9800AE8EB6 /* Customlabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93325C32148FF9800AE8EB6 /* Customlabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C93325B22148FA5300AE8EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93325B52148FA5300AE8EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93325B72148FA5300AE8EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93325BD2148FAD600AE8EB6 /* ChatMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		C93325BF2148FAFC00AE8EB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C93325C12148FEEE00AE8EB6 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		C93325C32148FF9800AE8EB6 /* Customlabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customlabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				C93325B22148FA5300AE8EB6 /* Assets.xcassets */,
 				C93325B42148FA5300AE8EB6 /* LaunchScreen.storyboard */,
 				C93325B72148FA5300AE8EB6 /* Info.plist */,
+				C93325BD2148FAD600AE8EB6 /* ChatMessageModel.swift */,
+				C93325BF2148FAFC00AE8EB6 /* Extensions.swift */,
+				C93325C12148FEEE00AE8EB6 /* ChatMessageCell.swift */,
+				C93325C32148FF9800AE8EB6 /* Customlabel.swift */,
 			);
 			path = ChatSimpleApp;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93325AE2148FA4B00AE8EB6 /* ViewController.swift in Sources */,
+				C93325C22148FEEE00AE8EB6 /* ChatMessageCell.swift in Sources */,
 				C93325AC2148FA4B00AE8EB6 /* AppDelegate.swift in Sources */,
+				C93325C42148FF9800AE8EB6 /* Customlabel.swift in Sources */,
+				C93325BE2148FAD600AE8EB6 /* ChatMessageModel.swift in Sources */,
+				C93325C02148FAFC00AE8EB6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com-sanadbarj.ChatSimpleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com-sanadbarj.ChatSimpleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
